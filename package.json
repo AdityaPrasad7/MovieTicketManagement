@@ -1,0 +1,8 @@
+{
+  "name": "movie-booking-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "vercel-build": "cd backend && npm install && cd ../frontend && npm install && npm run build"
+  }
+} 
